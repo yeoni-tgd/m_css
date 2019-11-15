@@ -1,0 +1,539 @@
+/* 모든 항목 focus시 아웃라인 제거 */
+*:focus {
+	outline: none !important;
+}
+
+
+
+/* 트게더 로고 */
+header>#header-area>a>h1 {
+    display: inline-block;
+    cursor: pointer;
+    width: 89px;
+    height: 32px;
+    text-indent: -9999px;
+    margin: 0 auto;
+    background: url(https://1.bp.blogspot.com/-DGbBLs-gQCM/Xc142xsBMrI/AAAAAAAAW30/2Zpu_bXIXkA0lhnR0PDhMm4-qXbY3uM2QCLcBGAsYHQ/s1600/logo_mobile%2B%25281%2529.png) no-repeat;
+}
+
+
+
+/* 메뉴 불러오는 아이콘 3줄 색 변경*/
+header>#header-area>#header-bar-link {
+
+    color: #F69B94
+}
+
+
+/* 검색 창 */
+header > #header-search-bar #header-search-input {
+
+    border: 2px solid #F69B94; /* 검색창 테두리 색 */
+
+    border-radius: 12px;
+
+}
+
+
+/* 검색 버튼 */
+header>#header-area>#header-search-link {
+
+    color: #F69B94; /* 검색창 옆 돋보기 색 */
+
+}
+
+
+
+header > #header-search-bar #header-search-btn {
+
+    color: #F69B94; /* 검색창 옆 돋보기 색 */
+
+}
+
+
+/* 트게더 로고 배너 */
+header {
+
+    border: 4px solid #F69B94; /* 로고 배너 하단 구분선 색 */
+
+    border-radius: 12px;
+
+    background: #FFFFFF; /* 로고 배너 배경 색 */
+
+}
+
+
+/* 상단 배너 광고 뱃지 */
+#header-top-notice strong.notice-badge {
+
+    background: #F69B94; /* 광고 뱃지 배경 색 */
+
+}
+
+
+
+/* 게시판 랭킹 숨기기 */
+#board-info h1 .badge-success {
+
+    display: none;
+
+}
+
+
+/* 즐찾, 소개, 채널, 스케줄, 클립 버튼들 색 변경 */
+#article-list #article-list-category>a {
+
+    background: #FFFFFF
+
+}
+
+
+
+/* 접속자 수 및 게시판 점수 부분 수정 */
+#board-info #viewers-area, #board-info #score-area {
+
+    color: #FFFFFF; /* 글씨색 */
+
+}
+
+
+
+/* 메인 배너 글 공지 */
+#article-list>.article-list-row.notice {
+
+    background-color: #F5DBD7; /* 공지 배경 색 */
+
+}
+
+
+
+/* 공지 숨기기 버튼 (눈알모양)*/
+#article-list #article-option-area {
+
+    right: 205px;
+
+    top: -37px;
+
+}
+
+#article-list #article-option-area> #article-option-area-toggle-btn {
+
+    background: #eaeaea;
+
+    width: 34px;
+
+    height: 34px;
+
+    border-radius: 8px;
+
+    border: 2px solid;
+
+    transition: 0.2s ease 0s;
+
+    line-height: inherit;
+
+}
+
+
+
+/* 글 추천 수 */
+#article-list>.article-list-row>.item>.list-header>span {
+
+    background-color: #F69B94; /* 글 추천 수 배경 색 */
+
+}
+
+
+
+/* 댓글 수 */
+#article-list>.article-list-row>.item>a.list-title>small.comment-count {
+
+    color: #F69B94; /* 댓글 수 색 */
+
+}
+
+
+
+/* 인기글 버튼 */
+#article-list-menu>.btn.best {
+
+    border-radius: 15px;
+
+    font-weight: bold;
+
+}
+
+
+
+/* 설정 버튼 */
+#article-list-menu>.btn.cog {
+
+    border-radius: 15px;
+
+    font-weight: bold;
+
+}
+
+
+
+/* 글 쓰기 버튼 */
+#article-list-menu>.btn.write {
+
+    border-radius: 15px;
+
+    font-weight: bold;
+
+}
+
+.btn-primary {
+
+    background-color: #F69B94; /* 글 쓰기 버튼 배경 색 */
+
+}
+
+
+/* 목록 버튼 */
+.btn {
+
+    border-radius: 15px;
+
+    font-weight: bold;
+
+}
+
+
+
+.btn-group-sm>.btn, .btn-sm {
+
+    border-radius: 15px;
+
+}
+
+
+
+/* 게시글 추천 */
+.btn-outline-success {
+
+    color: #F69B94; /* 추천 버튼 배경 색 */
+
+    border-color: #F69B94; /* 추천 버튼 테두리 색 */
+
+}
+
+
+
+/* 석삼 모양 메뉴 불러 왔을 때 부분 색 변경 */
+nav#nav>.nav-header {
+
+    margin-top: 12px;
+
+    background: #F69B94;
+
+    color: #fff;
+
+    padding: 6px 12px;
+
+}
+
+nav#nav>#nav-upper>#header-close-bar-link {
+
+    color: #F69b94;     /* 석삼 모양 메뉴 색 변경 */
+
+}
+
+
+
+/* 게시글 페이지 번호 색 수정 */
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+
+    background-color: #F69B94;
+
+    border-color: #F69B94;
+
+}
+
+
+
+/* 진은검 아이콘 삭제 */
+img[src="https://static-cdn.jtvnw.net/chat-badges/mod.png"] {
+    display: none;
+}
+
+
+/* 인기글 별 돌리기 */
+@keyframes binglebingle {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+} 
+
+span.a-badge i.fa.fa-star {
+    animation: binglebingle 4s infinite;
+}
+
+/* 하트 두근두근 효과 주기 */
+small.favo i.fa.fa-heart {
+    animation: heartbeat 1s infinite;
+}
+
+@keyframes heartbeat {
+    0% { transform: scale(1); }
+    30% { transform: scale(1.25); }
+    42% { transform: scale(0.9); }
+    60% { transform: scale(1.15); }
+    85% { transform: scale(0.95); }
+    100% { transform: scale(1); }
+} no-repeat;
+    background-size: auto 50px;
+    /*margin-bottom: -8px;*/
+}
+
+header .row>div:nth-child(1) > a > img {
+    /*filter: hue-rotate(2deg) saturate(1.9) brightness(1.8) contrast(0.3);*/
+    display: none;
+}
+
+
+
+/* 메뉴 불러오는 아이콘 3줄 색 변경*/
+header>#header-area>#header-bar-link {
+
+    color: #F69B94
+}
+
+
+/* 검색 창 */
+header > #header-search-bar #header-search-input {
+
+    border: 2px solid #F69B94; /* 검색창 테두리 색 */
+
+    border-radius: 12px;
+
+}
+
+
+/* 검색 버튼 */
+header>#header-area>#header-search-link {
+
+    color: #F69B94; /* 검색창 옆 돋보기 색 */
+
+}
+
+
+
+header > #header-search-bar #header-search-btn {
+
+    color: #F69B94; /* 검색창 옆 돋보기 색 */
+
+}
+
+
+/* 트게더 로고 배너 */
+header {
+
+	border: 4px solid #F69B94; /* 로고 배너 하단 구분선 색 */
+
+	border-radius: 12px;
+
+	background: #FFFFFF; /* 로고 배너 배경 색 */
+
+}
+
+
+/* 상단 배너 광고 뱃지 */
+#header-top-notice strong.notice-badge {
+
+    background: #F69B94; /* 광고 뱃지 배경 색 */
+
+}
+
+
+
+/* 게시판 랭킹 숨기기 */
+#board-info h1 .badge-success {
+
+    display: none;
+
+}
+
+
+/* 즐찾, 소개, 채널, 스케줄, 클립 버튼들 색 변경 */
+#article-list #article-list-category>a {
+
+    background: #FFFFFF
+
+}
+
+
+
+/* 접속자 수 및 게시판 점수 부분 수정 */
+#board-info #viewers-area, #board-info #score-area {
+
+    color: #FFFFFF; /* 글씨색 */
+
+}
+
+
+
+/* 메인 배너 글 공지 */
+#article-list>.article-list-row.notice {
+
+    background-color: #F4EBE7; /* 공지 배경 색 */
+
+}
+
+
+
+/* 공지 숨기기 버튼 (눈알모양)*/
+#article-list #article-option-area {
+
+    right: 205px;
+
+    top: -40px;
+
+}
+
+#article-list #article-option-area> #article-option-area-toggle-btn {
+
+    background: #eaeaea;
+    width: 34px;
+
+    height: 34px;
+
+    border-radius: 8px;
+
+    border: 2px solid;
+
+    transition: 0.2s ease 0s;
+
+    line-height: inherit;
+
+}
+
+
+
+/* 글 추천 수 */
+#article-list>.article-list-row>.item>.list-header>span {
+
+    background-color: #F69B94; /* 글 추천 수 배경 색 */
+
+}
+
+
+
+/* 댓글 수 */
+#article-list>.article-list-row>.item>a.list-title>small.comment-count {
+
+    color: #F69B94; /* 댓글 수 색 */
+
+}
+
+
+
+/* 인기글 버튼 */
+#article-list-menu>.btn.best {
+
+    border-radius: 15px;
+
+    font-weight: bold;
+
+}
+
+
+
+/* 설정 버튼 */
+#article-list-menu>.btn.cog {
+
+    border-radius: 15px;
+
+    font-weight: bold;
+
+}
+
+
+
+/* 글 쓰기 버튼 */
+#article-list-menu>.btn.write {
+
+    border-radius: 15px;
+
+    font-weight: bold;
+
+}
+
+.btn-primary {
+
+    background-color: #F69B94; /* 글 쓰기 버튼 배경 색 */
+
+}
+
+
+/* 목록 버튼 */
+.btn {
+
+    border-radius: 15px;
+
+    font-weight: bold;
+
+}
+
+
+
+.btn-group-sm>.btn, .btn-sm {
+
+    border-radius: 15px;
+
+}
+
+
+
+/* 게시글 추천 */
+.btn-outline-success {
+
+    color: #F69B94; /* 추천 버튼 배경 색 */
+
+    border-color: #F69B94; /* 추천 버튼 테두리 색 */
+
+}
+
+
+
+/* 게시글 페이지 번호 색 수정 */
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+
+    background-color: #F69B94;
+
+    border-color: #F69B94;
+
+}
+
+
+
+/* 진은검 아이콘 삭제 */
+img[src="https://static-cdn.jtvnw.net/chat-badges/mod.png"] {
+    display: none;
+}
+
+
+/* 인기글 별 돌리기 */
+@keyframes binglebingle {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+} 
+
+span.a-badge i.fa.fa-star {
+    animation: binglebingle 4s infinite;
+}
+
+/* 하트 두근두근 효과 주기 */
+small.favo i.fa.fa-heart {
+    animation: heartbeat 1s infinite;
+}
+
+@keyframes heartbeat {
+    0% { transform: scale(1); }
+    30% { transform: scale(1.25); }
+    42% { transform: scale(0.9); }
+    60% { transform: scale(1.15); }
+    85% { transform: scale(0.95); }
+    100% { transform: scale(1); }
+}
