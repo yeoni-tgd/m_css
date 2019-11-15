@@ -89,6 +89,14 @@ header {
 
 
 
+#article-list #article-list-category {
+
+    background: #FFFFFF;
+    
+}
+
+
+
 /* 접속자 수 및 게시판 점수 부분 수정 */
 #board-info #viewers-area, #board-info #score-area {
 
