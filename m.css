@@ -18,7 +18,17 @@
 }
 */
 
+@font-face {
 
+    font-family: 'BRRA_R';
+
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/BRRA_R.woff') format('woff');
+
+    font-weight: normal;
+
+    font-style: normal;
+
+}
 /* 트게더 로고 */
 header>#header-area>a>h1 {
 
