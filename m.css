@@ -5,14 +5,33 @@
 
 
 
+@font-face { 
+
+    font-family: 'BBTreeGB';
+
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/BBTreeGB.woff') format('woff');
+
+    font-weight: normal;
+
+    font-style: normal;
+
+}
+
 /* 트게더 로고 */
 header>#header-area>a>h1 {
+
     display: inline-block;
+    
     cursor: pointer;
+    
     width: 89px;
+    
     height: 32px;
+   
     text-indent: -9999px;
+    
     margin: 0 auto;
+    
     background: url(https://1.bp.blogspot.com/-DGbBLs-gQCM/Xc142xsBMrI/AAAAAAAAW30/2Zpu_bXIXkA0lhnR0PDhMm4-qXbY3uM2QCLcBGAsYHQ/s1600/logo_mobile%2B%25281%2529.png) no-repeat;
 }
 
