@@ -25,7 +25,9 @@ header>#header-area>a>h1 {
 
 /* 메뉴와 돋보기 사이즈 줄이기 */
 header .fa {
+
     font-size: medium;
+
 }
 
 
@@ -125,10 +127,10 @@ header {
 
 
 
-/* 메인 배너 글 공지 */
+/* 공지글 배경색 */
 #article-list>.article-list-row.notice {
 
-    background-color: #F69B94; /* 공지 배경 색 */
+    background-color: rgba(246, 155, 148, 30);
 
 }
 
