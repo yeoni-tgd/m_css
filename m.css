@@ -26,7 +26,7 @@ header>#header-area>a>h1 {
 /* 메뉴 불러오는 아이콘 3줄 색 변경*/
 header>#header-area>#header-bar-link {
 
-    color: #F69B94
+    color: #FFFFFF
 }
 
 
@@ -43,7 +43,7 @@ header > #header-search-bar #header-search-input {
 /* 검색 버튼 */
 header>#header-area>#header-search-link {
 
-    color: #F69B94; /* 검색창 옆 돋보기 색 */
+    color: #FFFFFF; /* 검색창 옆 돋보기 색 */
 
 }
 
@@ -51,7 +51,7 @@ header>#header-area>#header-search-link {
 
 header > #header-search-bar #header-search-btn {
 
-    color: #F69B94; /* 검색창 옆 돋보기 색 */
+    color: #FFFFFF; /* 검색창 옆 돋보기 색 */
 
 }
 
