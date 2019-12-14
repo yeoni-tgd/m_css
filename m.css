@@ -3,20 +3,6 @@
 	outline: none !important;
 }
 
-
-/*
-@font-face { 
-
-    font-family: 'BBTreeGB';
-
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/BBTreeGB.woff') format('woff');
-
-    font-weight: normal;
-
-    font-style: normal;
-
-}
-*/
 /* 트게더 로고 */
 header>#header-area>a>h1 {
 
@@ -32,7 +18,7 @@ header>#header-area>a>h1 {
     
     margin: 0 auto;
     
-    background: url(https://1.bp.blogspot.com/-4Vaujiv0sxY/XdntL46SMUI/AAAAAAAAXfs/uTwIgipJeKw95yXeXeseJXKQYU0k7kxLACLcBGAsYHQ/s1600/logo_m_test2.png) no-repeat;
+    background: url(https://1.bp.blogspot.com/-b5f5Xsagyf8/XfRweo7FwkI/AAAAAAAAYV4/ajxP5ntzeiEeui87BZFpHfp8OVCLjDcWgCLcBGAsYHQ/s1600/m_tgd_logo_%25EB%25B0%25B0%25EC%258A%25A4%25ED%2582%25A8.png) no-repeat;
 }
 
 
@@ -70,17 +56,23 @@ header > #header-search-bar #header-search-btn {
 }
 
 
-/* 트게더 로고 배너 */
+/* 트게더 로고 배너
 header {
 
-    border: 4px solid #F69B94; /* 로고 배너 하단 구분선 색 */
+    border: 4px solid #F69B94;  로고 배너 하단 구분선 색 
 
     border-radius: 12px;
 
-    background: #FFFFFF; /* 로고 배너 배경 색 */
+    background: #FFFFFF;  로고 배너 배경 색 
 
 }
+*/
 
+header {
+
+    color: #F69B94;
+
+}
 
 /* 상단 배너 광고 뱃지 */
 #header-top-notice strong.notice-badge {
