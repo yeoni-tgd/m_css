@@ -3,6 +3,13 @@
 	outline: none !important;
 }
 
+body {
+
+    padding-top: 60px;
+    background: #ffffff;
+    
+}
+
 /* 트게더 로고 */
 header>#header-area>a>h1 {
 
