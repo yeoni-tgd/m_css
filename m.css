@@ -23,6 +23,13 @@ header>#header-area>a>h1 {
 
 
 
+/* 메뉴와 돋보기 사이즈 줄이기 */
+header .fa {
+    font-size: medium;
+}
+
+
+
 /* 메뉴 불러오는 아이콘 3줄 색 변경*/
 header>#header-area>#header-bar-link {
 
