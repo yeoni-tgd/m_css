@@ -137,7 +137,7 @@ header {
 /* 공지글 배경색 */
 #article-list>.article-list-row.notice {
 
-    background-color: rgba(246, 155, 148, .3);
+    background-color: rgba(246, 155, 148, .1);
 
 }
 
