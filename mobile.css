@@ -456,3 +456,11 @@ img[src="https://static-cdn.jtvnw.net/badges/v1/3267646d-33f0-4b17-b3df-f923a41d
 html.darkmode #board-info h1 {
     border-bottom: 1px solid #000000;
 }
+
+/* 스트리머 이름 위쪽 회색줄 없애기 */
+
+html.darkmode.mb #board-info {
+    /* background: #242424; */
+    border-top: 2px solid var(--maincolor);
+    border-bottom: 1px solid #000000;
+}
