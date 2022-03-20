@@ -436,3 +436,8 @@ span.a-badge i.fa.fa-star {
 	0% { transform: rotate(0deg); }
 	100% { transform: rotate(360deg); }
 }
+
+/* 진은검 아이콘 삭제 */
+img[src="https://static-cdn.jtvnw.net/badges/v1/3267646d-33f0-4b17-b3df-f923a41db1d0/1"] {
+    display: none;
+}
