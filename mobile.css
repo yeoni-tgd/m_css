@@ -1,4 +1,4 @@
-# yeoni TGD mobile page sample test written by Million_Air
+/*** yeoni TGD mobile page sample test by iPhonien ***/
 
 /**** Designed by Million_Air in Twitch ****/
 /******* Discord me Million_Air#9087 *******/
@@ -74,11 +74,11 @@ header {
 
 /* 트게더 로고 */
 /* 로고 변경시 주석 해제 후 url 안에 이미지 주소 입력 */
-/*header>#header-area>a>h1 {
-	background: url() no-repeat;
+header>#header-area>a>h1 {
+	background: url(https://1.bp.blogspot.com/-VVruCNV6Ehs/XfR2CrVK8bI/AAAAAAAAYWE/PM5vQEArLXIZomeiqEcyLdWznn_K4cS2ACLcBGAsYHQ/s1600/m_tgd_logo_white.png) no-repeat;
 	background-size: 90px 32px;
 	margin-top: 2px;
-}*/
+}
 
 /* 헤더 광고 */
 #header-top-notice strong.notice-badge { background: var(--maincolor) !important; }
