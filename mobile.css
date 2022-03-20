@@ -526,9 +526,11 @@ input.form-control {
   transition: 0.2s !important;
 }
 
+/*
 input.form-control:hover,
 input.form-control:focus {
 }
+*/
 
 input.form-control::placeholder {
   color: var(--btcolor) !important;
