@@ -436,7 +436,15 @@ span.a-badge i.fa.fa-star {
 	100% { transform: rotate(360deg); }
 }
 
+
+
+/*** 내가 새로운 코드를 삽입하여 테스트 하는 구간 ***/
+
 /* 진은검 아이콘 삭제 */
 img[src="https://static-cdn.jtvnw.net/badges/v1/3267646d-33f0-4b17-b3df-f923a41db1d0/1"] {
     display: none;
 }
+
+/* 게시판 점수 및 활동 인원수 표시 숨기기 */
+
+#board-info #score-area { display: none !important; }
