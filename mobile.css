@@ -448,3 +448,4 @@ img[src="https://static-cdn.jtvnw.net/badges/v1/3267646d-33f0-4b17-b3df-f923a41d
 /* 게시판 점수 및 활동 인원수 표시 숨기기 */
 
 #board-info #score-area { display: none !important; }
+#board-info #viewers-area { display: none !important; }
