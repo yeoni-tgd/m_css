@@ -527,6 +527,7 @@ input.form-control {
 }
 
 /*
+삭제해도 별 문제 없는데 ... ?? 왜 있는 코드일까 ?
 input.form-control:hover,
 input.form-control:focus {
 }
@@ -607,6 +608,7 @@ span.a-badge i.fa.fa-star {
 /*** 내가 새로운 코드를 삽입하여 테스트 하는 구간 ***/
 
 /* 진은검 아이콘 삭제 */
+
 img[src="https://static-cdn.jtvnw.net/badges/v1/3267646d-33f0-4b17-b3df-f923a41db1d0/1"]
 {
   display: none;
@@ -636,12 +638,14 @@ html.darkmode.mb #board-info {
 }
 
 /* 게시글 클릭 후 보더 안맞는 부분 수정 */
+
 html.darkmode #article-content-wrapper > .header {
   border-top: 2px solid var(--maincolor);
   background: #242424;
 }
 
 /* 카테고리 위쪽 테두리 조정 */
+
 #article-list #article-list-category {
   background: transparent !important;
   /* 아예 없애면 보라색으로 나와서 0px로 수정 */
