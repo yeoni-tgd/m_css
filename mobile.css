@@ -453,4 +453,6 @@ img[src="https://static-cdn.jtvnw.net/badges/v1/3267646d-33f0-4b17-b3df-f923a41d
 
 /* 스트리머 이름 아래 회색줄 없애기 */
 
-html.darkmode #board-info h1 { display: none !important; }
+html.darkmode #board-info h1 {
+    border-bottom: 1px solid #000000;
+}
