@@ -123,7 +123,7 @@ nav#nav {
   padding-bottom: 5px !important;
 	top: 7px !important;
 	left: 7px !important;
-  bottom: 7px !important;
+  	bottom: 7px !important;
 	border: 3px solid var(--maincolor) !important;
 	border-radius: 10px !important;
 	animation: slider 0.2s cubic-bezier(0.25, 1, 1, 1);
@@ -449,3 +449,8 @@ img[src="https://static-cdn.jtvnw.net/badges/v1/3267646d-33f0-4b17-b3df-f923a41d
 
 #board-info #score-area { display: none !important; }
 #board-info #viewers-area { display: none !important; }
+
+
+/* 스트리머 이름 아래 회색줄 없애기 */
+
+html.darkmode #board-info h1 { display: none !important; }
